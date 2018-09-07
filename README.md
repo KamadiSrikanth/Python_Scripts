@@ -1,4 +1,4 @@
-# Python_Scripts
+# Python_Script to check if the given two strings are anagrams
 #using python Built-in functions
 def anagram(s1,s2):
     s1= s1.replace(' ','').lower()
@@ -31,5 +31,5 @@ def anagram1(s1,s2):
         if count[i]!=0:
             return False
     return True
-#print(anagram1('dog','god'))
+print(anagram1('dog','god'))
 print(anagram1('clint eastwood','old west action'))
